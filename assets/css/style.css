@@ -4,18 +4,36 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #33475B;
+  min-width: 1400px;
+  overflow-x: hidden;
+}
+
 /* utillity */
 .bg_light{
   background: #F4F9FD;
 }
 .bg_icon{
-  background: #00A4BD;
+  color: #00A4BD;
 }
 .bg_btn{
   background: #FE775A;
+  border-radius: 6px;
+  color: white;
+  border: 1px solid #FE775A;
+}
+.bg_btn:hover{
+  background: #ffbcac;
+  border: 1px solid #ffbcac;
 }
 .color_text{
   color: #33475B;
+}
+.color_link:hover{
+  color: #007a8c;
+  text-decoration: underline;
 }
 .bg_ban{
   background: #AFEBE4;
@@ -27,10 +45,71 @@
   background: #32495B;
 }
 
+.float_left{
+  float: left;
+}
+
 .h_80{
   height: 80px;
 }
+.border_t{
+  border-top: 2px solid #33475B;
+}
+.border_b{
+  border-bottom: 2px solid #33475B;
+}
+.b_r{
+  border-right: 1px solid #33475B;
+}
+
+.icon_o{
+  color: #FE775A;
+  border: 1px solid #FE775A;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin: 20px;
+}
+.icon_o:hover{
+  background: #fff1ee;
+}
+
+.t_sm{
+  font-size: 10px;
+}
+.t_normal{
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: #33475B;
+}
+
+.p_r_20{
+  padding-right: 20px;
+}
+.p_l_20{
+  padding-left: 20px;
+}
+.p_20{
+  padding: 20px;
+}
+.p_10_20{
+  padding: 10px 20px;
+}
+/* .p_20_10{
+  padding: 20px 10px;
+} */
 /* /utility */
+.container{
+  width: 70%;
+  margin: auto;
+}
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 #site_header{
   height: 850px;
@@ -40,4 +119,54 @@
 }
 #site_footer{
   height: 650px;
+}
+
+/* header */
+/* navbar_top */
+.menu_left, .menu_right{
+  width: 50%;
+  line-height: 80px;
+}
+.menu_right, .nav_inner{
+  text-align: right;
+}
+.logo{
+  width: 20%;
+  margin-top: 7px;
+}
+.nav_inner{
+  width: 80%;
+}
+.logo, .nav_inner{
+  line-height: 80px;
+}
+
+/* hero */
+.hero{
+  height: calc(850px - (80px * 3));
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-size: 102.5%;
+}
+.hero_image{
+  position: relative;
+}
+.hero_text{
+  width: 42%;
+  position: absolute;
+  top:50%;
+  transform: translateY(66px);
+}
+.hero_text h1{
+  font-size: 42px;
+  font-weight: 500;
+}
+.hero_text p{
+  font-weight: 400;
+  margin: 20px 0;
+  line-height: 2;
+}
+.btn{
+  display: inline-block;
+  margin: 20px 0;
 }

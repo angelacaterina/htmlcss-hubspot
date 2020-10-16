@@ -3,18 +3,81 @@
   <head>
     <meta charset="utf-8">
     <title>Hubspot site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <!-- #site_header -->
     <header id="site_header">
-      <nav class="navbar_top h_80 bg_light"></nav>
+      <nav #id="navbar_top" class="h_80 bg_light border_b">
+        <div class="container">
+          <div class="menu_left float_left">
+            <a href="#" class="p_r_20 b_r color_link">
+              <i class="fas fa-globe-europe"></i>
+              English
+              <i class="fas fa-chevron-down"></i>
+            </a>
+            <a href="#" class="p_l_20 color_link">Contact Us</a>
+          </div>
+          <!-- /.menu_left -->
+          <div class="menu_right float_left">
+            <a href="#">
+              <i class="fas fa-search bg_icon"></i>
+            </a>
+            <a href="#" class="icon_o">Log in</a>
+            <a href="#" class="bg_btn p_10_20">GetHubspotFree</a>
+          </div>
+          <!-- /.menu_right -->
+        </div>
+        <!-- /.container -->
+      </nav>
       <!-- /.navbar_top -->
-      <nav class="navbar h_80"></nav>
+
+      <nav  #id="navbar" class="h_80">
+        <div class="container">
+          <div class="logo float_left">
+            <img src="assets/img/logo.svg" alt="">
+          </div>
+          <!-- /.logo -->
+          <div class="nav_inner float_left">
+            <a href="#" class="p_r_20">
+              Software <i class="fas fa-chevron-down p_20"></i>
+            </a>
+            <a href="#" class="p_r_20 color_link">
+              Pricing
+            </a>
+            <a href="#" class="p_r_20">
+              Resources <i class="fas fa-chevron-down p_20"></i>
+            </a>
+            <a href="#" class="p_r_20">
+              Partners <i class="fas fa-chevron-down p_20"></i>
+            </a>
+            <a href="#">
+              About <i class="fas fa-chevron-down p_l_20"></i>
+            </a>
+          </div>
+          <!-- /.nav_inner -->
+        </div>
+        <!-- /.container -->
+      </nav>
       <!-- /.navbar -->
-      <div class="hero"></div>
+
+      <div class="hero">
+        <div class="hero_image container">
+          <div class="hero_text">
+            <h1>There's a better way to grow.</h1>
+            <p class="t_normal">Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer".</p>
+            <a href="#" class=" btn bg_btn p_20">GetHubspotFree</a>
+            <p class="t_sm">Get started with FREE tools, and udgrade as you grow.</p>
+          </div>
+          <!-- /.hero_text -->
+        </div>
+        <!-- /.hero_image -->
+      </div>
       <!-- /.hero -->
-      <div class="banner h_80 bg_ban"></div>
+
+      <div class="banner h_80 bg_ban border_t border_b"></div>
       <!-- /.banner -->
     </header>
     <!-- /#site_header -->
