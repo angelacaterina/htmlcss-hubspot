@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utillity */
+.bg_light{
+  background: #F4F9FD;
+}
+.bg_icon{
+  background: #00A4BD;
+}
+.bg_btn{
+  background: #FE775A;
+}
+.color_text{
+  color: #33475B;
+}
+.bg_ban{
+  background: #AFEBE4;
+}
+.bg_community{
+  background: #00A8BA;
+}
+.bg_footer{
+  background: #32495B;
+}
+
+.h_80{
+  height: 80px;
+}
+/* /utility */
+
+#site_header{
+  height: 850px;
+}
+#main_content{
+  height: 2300px;
+}
+#site_footer{
+  height: 650px;
+}
