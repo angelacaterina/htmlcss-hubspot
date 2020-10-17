@@ -27,9 +27,10 @@ p{
 
 li{
   list-style: none;
-  display: inline-block;
   padding: 0 15px 0 0;
+  text-transform: capitalize;
 }
+
 /* utillity */
 .bg_light{
   background: #F4F9FD;
@@ -103,6 +104,9 @@ li{
 }
 .text_center{
   text-align: center;
+}
+.text_left{
+  text-align: left;
 }
 
 a{
@@ -204,7 +208,7 @@ margin: 20px 0;
 .cubo{
   transform: translateX(20px);
 }
-
+/* .col_12 */
 .col_12::after{
   content: "";
   display: table;
@@ -233,6 +237,55 @@ margin: 20px 0;
   padding-left: 20px;
   padding-right: 81px;
 }
-.col_right p{
-  /* padding-right: 50px; */
+.col_right li{
+  display: inline-block;
+}
+
+#hr_inline{
+  transform: translate(214px, -41px);
+  width: 64%;
+  border: 1px solid grey;
+}
+/* .col_4 */
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.col_4{
+  width: 30%;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 2.5%;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #E6ECF1;
+}
+.col_4_center{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card hr{
+  margin-top: 40px;
+  border: 1px solid grey;
+}
+
+.marketing_hub{
+  width: 25%;
+}
+.sales_hub{
+  width: 47%;
+}
+.service_hub{
+  width: 34%;
+}
+.marketing_hub, .sales_hub, .service_hub{
+  margin: 14px 0;
+}
+
+.btn_learn_more{
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
