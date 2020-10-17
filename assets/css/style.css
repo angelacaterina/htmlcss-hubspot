@@ -10,7 +10,26 @@ body{
   min-width: 1400px;
   overflow-x: hidden;
 }
+h3{
+  font-size: 1.5em;
+  padding-bottom: 25px;
+}
+h4{
+  text-transform: uppercase;
+  padding: 30px 0;
+}
 
+p{
+  font-size: 14.5px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px 0 0;
+}
 /* utillity */
 .bg_light{
   background: #F4F9FD;
@@ -72,12 +91,18 @@ body{
 .icon_o:hover{
   background: #fff1ee;
 }
-
-.t_sm{
-  font-size: 10px;
+.icon_li{
+  color: #FE775A;
+  padding-right: 10px;
 }
-.t_normal{
+.t_sm{
   font-size: 12px;
+}
+.t_big{
+  font-size: 2em;
+}
+.text_center{
+  text-align: center;
 }
 
 a{
@@ -97,9 +122,12 @@ a{
 .p_10_20{
   padding: 10px 20px;
 }
-/* .p_20_10{
-  padding: 20px 10px;
-} */
+.p_btn{
+  padding: 20px 35px;
+}
+.p_50{
+  padding: 50px;
+}
 /* /utility */
 .container{
   width: 70%;
@@ -115,7 +143,7 @@ a{
   height: 850px;
 }
 #main_content{
-  height: 2300px;
+  height: 2900px;
 }
 #site_footer{
   height: 650px;
@@ -130,6 +158,7 @@ a{
 .menu_right, .nav_inner{
   text-align: right;
 }
+/* navbar */
 .logo{
   width: 20%;
   margin-top: 7px;
@@ -152,21 +181,58 @@ a{
   position: relative;
 }
 .hero_text{
-  width: 42%;
+  width: 44%;
   position: absolute;
-  top:50%;
-  transform: translateY(66px);
+  transform: translateY(67px);
 }
 .hero_text h1{
   font-size: 42px;
   font-weight: 500;
 }
 .hero_text p{
-  font-weight: 400;
-  margin: 20px 0;
-  line-height: 2;
+margin: 20px 0;
 }
 .btn{
   display: inline-block;
   margin: 20px 0;
+}
+/* main */
+/* services */
+#services p.center{
+  padding: 20px 70px 0;
+}
+.cubo{
+  transform: translateX(20px);
+}
+
+.col_12::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.col_12{
+  border-radius: 6px;
+  box-shadow: 0 0 10px #E6ECF1;
+  background: white;
+  padding: 60px 0;
+}
+.col_left{
+  width: 30%;
+  padding: 10px;
+}
+.libro{
+  width: 52%;
+  transform: translateY(-13px);
+}
+.col_left a{
+  transform: translateY(-15px);
+}
+
+.col_right{
+  width: 70%;
+  padding-left: 20px;
+  padding-right: 81px;
+}
+.col_right p{
+  /* padding-right: 50px; */
 }
