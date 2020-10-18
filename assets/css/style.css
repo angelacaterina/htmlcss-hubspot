@@ -162,7 +162,7 @@ a{
   /* height: 850px; */
 }
 #main_content{
-  height: 2900px;
+  /* height: 2900px; */
 }
 #site_footer{
   height: 650px;
@@ -331,7 +331,7 @@ margin: 20px 0;
 }
 
 .text_sm{
-  font-size: 10.5px;
+  font-size: 11px;
 }
 .b_bottom{
   border-bottom: 1px solid white;
@@ -364,4 +364,88 @@ margin: 20px 0;
 }
 .row2_4{
   width: 104%;
+}
+/* /immagini */
+/* /community */
+/* testimonials */
+#testimonials{
+  padding: 50px 0;
+}
+.row_t::after{
+  content: "";
+  display: table;
+  clear: both;;
+}
+.col_6_left{
+  width: 30%;
+  padding-right: 65px
+}
+.col_6_right{
+  width: 70%;
+  text-align: right;
+}
+.row_t.top{
+  padding: 0 65px;
+}
+
+h3.big{
+  font-size: 2.75em;
+}
+.col_6_right img{
+  width: 20%;
+  /* display: inline-block; */
+}
+.icon_row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon_row > .float_left{
+  width: 25%;
+  text-align: center;
+  padding:20px;
+}
+/* immagini */
+.icon_row1_1{
+  padding: 12px 20px 20px;
+}
+.icon_row1_2{
+  padding: 20px 20px;
+}
+.icon_row1_3{
+  padding: 12px 20px;
+}
+.icon_row1_4{
+  padding: 10px 20px 14px;
+}
+.icon_row2_1{
+  padding: 10px 20px;
+}
+.icon_row2_2{
+  padding: 10px 20px;
+}
+.icon_row2_3{
+  padding: 10px 20px;
+}
+.icon_row2_4{
+  padding: 10px 20px;
+}
+/* /immagini */
+.col_6_b{
+  width: 50%;
+  padding: 100px 0 0;
+}
+.p_r_50{
+  padding-right: 50px;
+}
+.m_50_0{
+  margin: 50px 0;
+}
+
+.right{
+  text-align: right;
+}
+.col_6_b > img {
+  width: 66%;
+  transform: translateY(-11%);
 }
