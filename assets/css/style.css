@@ -451,9 +451,10 @@ h3.big{
 }
 
 /* footer */
-.link_wpaper{
-  padding-top: 30px;
+#site_footer{
+  padding: 30px 0;
 }
+
 .link_wpaper::after{
   content: "";
   display: table;
@@ -493,4 +494,48 @@ h3.big{
 .social > a{
   color: white;
   width: 15%;
+}
+.social > a:hover{
+  color: #7fd1de;
+}
+
+.languages{
+  text-align: center;
+  margin-top: 80px;
+}
+.languages > a{
+  color: white;
+  padding: 0 10px;
+}
+.languages > a:hover{
+  color: #7fd1de;
+  text-decoration: underline;
+}
+.languages >hr{
+  margin-top: 10px;
+}
+
+.privacy ::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.privacy{
+  padding: 30px 0;
+
+}
+.logo_copyright, .legal{
+  width: 50%;
+}
+
+.legal{
+  text-align: right;
+}
+.legal > a{
+  color: white;
+  display: inline-block;
+}
+.legal > a:hover{
+  color: #7fd1de;
+  text-decoration: underline;
 }
