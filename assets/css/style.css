@@ -465,8 +465,32 @@ h3.big{
 
 .col_3_f > h5{
   font-size: 15px;
+  padding-bottom: 20px;
 }
+
 .link > li > a{
   color: white;
   line-height: 2.5;
+}
+.link > li > a:hover{
+  color: #7fd1de;
+  text-decoration: underline;
+}
+.btn_support{
+  font-size: 13.5px;
+  background: white;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 6px;
+  border: 1px solid white;
+  display: inline-block;
+}
+.social::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.social > a{
+  color: white;
+  width: 15%;
 }
