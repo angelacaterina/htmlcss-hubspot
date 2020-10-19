@@ -393,7 +393,7 @@ h3.big{
 }
 .col_6_right img{
   width: 20%;
-  /* display: inline-block; */
+  display: inline-block;
 }
 .icon_row::after{
   content: "";
@@ -403,7 +403,7 @@ h3.big{
 .icon_row > .float_left{
   width: 25%;
   text-align: center;
-  padding:20px;
+  /* padding:20px; */
 }
 /* immagini */
 .icon_row1_1{
@@ -448,4 +448,25 @@ h3.big{
 .col_6_b > img {
   width: 66%;
   transform: translateY(-11%);
+}
+
+/* footer */
+.link_wpaper{
+  padding-top: 30px;
+}
+.link_wpaper::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.col_3_f{
+  width: 25%;
+}
+
+.col_3_f > h5{
+  font-size: 15px;
+}
+.link > li > a{
+  color: white;
+  line-height: 2.5;
 }
