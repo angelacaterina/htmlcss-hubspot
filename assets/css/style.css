@@ -396,43 +396,19 @@ li{
   width: 20%;
   display: inline-block;
 }
-.icon_row::after{
-  content: "";
-  display: table;
-  clear: both;
-}
 /* immagini */
-.icon_row1_1{
-  padding: 12px 20px 20px;
+.icon_row1_1, .icon_row1_2{
+  transform: translateY(-4px);
+}
+.icon_row1_3, .icon_row1_4{
   transform: translateY(5px);
 }
-.icon_row1_2{
-  padding: 20px 20px;
-  transform: translateY(-2px);
-}
-.icon_row1_3{
-  padding: 12px 20px;
-  transform: translateY(-2px);
-}
-.icon_row1_4{
-  padding: 10px 20px 14px;
-  transform: translateY(-3px);
-}
-.icon_row2_1{
-  padding: 10px 20px;
-  transform: translateY(0px);
-}
-.icon_row2_2{
-  padding: 10px 20px;
-  transform: translateY(6px);
-}
-.icon_row2_3{
-  padding: 10px 20px;
-  transform: translateY(5px);
+
+.icon_row2_1, .icon_row2_3{
+  transform: translateY(13px);
 }
 .icon_row2_4{
-  padding: 10px 20px;
-  transform: translateY(5px);
+  transform: translateY(2px);
 }
 /* /immagini */
 .col_6_b{
